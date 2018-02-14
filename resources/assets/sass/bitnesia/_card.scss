@@ -1,0 +1,10 @@
+.card.bitnesia{
+	background-color: $white;
+	padding: 3% !important;
+	box-shadow: $box-shadow-card;
+	border: 0px;
+	& .title{
+		font-weight: 500;
+		color: $black-smoth-color2;
+	}
+}

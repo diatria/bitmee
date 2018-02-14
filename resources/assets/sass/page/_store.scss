@@ -1,0 +1,177 @@
+.store-header{
+	& > img{
+		width: 100% !important;
+	}
+	& .store-navbar{
+		height: 50px;
+	    background-color: $white;
+	    box-shadow: 0px 1px $border $grey-200;
+	    padding: 0 8px;
+	    & .store-name-info{
+		    padding: 1px 25px 8px 15px;
+		    display: inline-block;
+		    height: 100%;
+		    border-bottom: 2px solid $blue;
+		    color: $black;
+		    > i {
+		   		font-size: 11px;
+    			vertical-align: -7;
+    			margin-right: 10px;
+    			&.online{
+		    		color: $green;
+		    	}
+		    }
+		    &> .store-name{
+		    	font-size: 18px;
+		    	font-weight: 500;
+		    }
+		    &> .status{
+		    	font-size: 11px;
+		    	font-weight: 500;
+		    	display: block;
+		    	margin: 0 25px;
+		    	&.online{
+		    		color: $green;
+		    		font-weight: 500;
+		    	}
+		    }
+	    }
+	}
+}
+
+.store-content{
+	width: 100%;
+	&>.row{
+		margin: 0;
+		padding: 15px;
+		table{
+			width: 100%;
+			.table-icon{
+				width: 20%;
+				& > .i-yellow{
+					color: $yellow;
+				}
+			}
+			.table-title{
+				
+			}
+		}
+	}
+	.store-progress-bar{
+		width: 100%;
+		height: 10px;
+	}
+}
+
+.store-progress-bar{
+	padding: 10px 0;
+	margin-bottom: 10px;
+	> .progress-bar{
+		width: 100%;
+		height: 10px;
+		background-color: $border-color;
+		border-radius: $border-3;
+	}
+	> .progress-bar-strip{
+		background-color: $blue;
+		width: 10%;
+	    height: 10px;
+	    position: relative;
+	    top: -10px;
+	    border-radius: $border-3;
+	}
+}
+
+.store-profile{
+	&>.store-icon{
+		padding: 10px;
+		.store-profile-icon{
+			width: 100px;
+		}
+	}
+	.store-profile-title{
+		display: block;
+	    text-align: center;
+	    font-weight: 500;
+	}
+	.store-profile-tag{
+		display: block;
+	    text-align: center;
+	    font-size: 12px;
+	}
+	.separator{
+		padding: 0 30%;
+	}
+	.store-profile-information{
+		padding: 10px 15%;
+		.box-line{
+			display: flex;
+			padding: 10px 0;
+			.icon{
+				display: inline-block;
+				font-size: 24px;
+				color: $yellow;
+				&.icon-red{
+					color: $red !important;
+				}
+				&.icon-green{
+					color: $green !important;
+				}
+			}
+			.text{
+				display: inline-block;
+   				padding: 0 20px;
+			}
+		}
+	}
+}
+
+.store-comment{
+	margin-bottom: 30px;
+	& > .store-comment-img{
+		display: inline-block;
+		float: left;
+	}
+	& > .store-comment-name{
+		width: 80%;
+		min-height: 20px;
+		display: inline-block;
+		float: left;
+		padding: 0 20px;
+    	font-weight: 500;
+	}
+	& > .store-comment-text{
+		width: 80%;
+		min-height: 40px;
+		display: inline-block;
+		float: left;
+		padding: 10px 20px;
+	}
+}
+
+.store-comment-header{
+	font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 20px;
+    > span {
+    	border-bottom: 2px solid $blue;
+	    padding-bottom: 10px;
+	    width: 150px;
+	    display: inline-block;
+    }
+}
+
+.store-comment-add{
+	> textarea {
+		margin-bottom: 20px;
+	}
+}
+
+// Attribute
+.store-margin-default-top{
+	margin-top: 15px;
+}
+
+.store-card-small{
+	min-height: 80px !important;
+}

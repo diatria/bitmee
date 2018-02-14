@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+@import 'bitnesia/variable';
+@import 'bitnesia/global';
+@import 'bitnesia/header';
+@import 'bitnesia/navbar';
+@import 'bitnesia/card';
+@import 'bitnesia/progress-bar';
+@import 'costumizer/button';
+@import 'costumizer/form';
+
+@import 'page/login';
+@import 'page/dashboard';
+@import 'page/store';
+@import 'page/market';
+
+// GLOBAL
+html, body{
+	margin: 0;
+}
+body{
+	max-resolution: 0;
+}

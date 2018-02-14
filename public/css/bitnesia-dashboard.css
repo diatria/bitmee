@@ -1,0 +1,424 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+.bg-colored {
+  background-color: #FAFAFA;
+  width: 0;
+  height: 0; }
+
+.header {
+  display: flex; }
+  .header .cover {
+    width: 100%;
+    height: 500px;
+    margin-top: 60px; }
+    .header .cover .cover-text {
+      padding: 100px; }
+      .header .cover .cover-text > .description {
+        margin-bottom: 20px; }
+    .header .cover-image {
+      float: right;
+      width: 50%;
+      height: 100%;
+      background-image: url("../assets/image/money.jpg");
+      background-size: 600px;
+      background-repeat: no-repeat;
+      background-position: center; }
+
+.navigation {
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  box-shadow: 0px 1px 2px #EEEEEE;
+  background-color: #FFFFFF;
+  z-index: 1000; }
+  .navigation .logo {
+    display: inline-block; }
+    .navigation .logo > img {
+      height: 60px; }
+  .navigation .menu {
+    display: flex;
+    float: right;
+    margin-right: 50px; }
+    .navigation .menu > .item {
+      height: 30px;
+      margin: 15px; }
+      .navigation .menu > .item.button {
+        color: #03A9F4;
+        font-weight: bold; }
+
+.sidebar {
+  height: 100%;
+  width: 250px;
+  top: 0;
+  position: fixed;
+  margin: 60px 0;
+  box-shadow: 0px 1px 2px #EEEEEE;
+  background-color: #FFFFFF;
+  float: left; }
+  .sidebar > .profile {
+    padding: 20px 0; }
+    .sidebar > .profile > .img {
+      padding: 30px 30px 15px 30px; }
+      .sidebar > .profile > .img > img {
+        width: 100px;
+        height: 100px; }
+    .sidebar > .profile > .profile-name {
+      display: block;
+      text-align: center;
+      font-weight: 500; }
+    .sidebar > .profile > .profile-id {
+      display: block;
+      text-align: center;
+      font-size: 12px; }
+  .sidebar > .list {
+    padding: 30px 0; }
+    .sidebar > .list > .item-block {
+      padding: 0px 30px;
+      display: block;
+      text-decoration: none; }
+      .sidebar > .list > .item-block:hover {
+        border-right: 2px solid #EEEEEE; }
+      .sidebar > .list > .item-block > .item {
+        padding: 15px 20px;
+        color: #616161;
+        border-radius: 3px; }
+        .sidebar > .list > .item-block > .item .icon-bitnesia {
+          font-size: 24px;
+          vertical-align: -3px;
+          margin-right: 10px;
+          display: inline-block;
+          width: 40px; }
+        .sidebar > .list > .item-block > .item:hover {
+          background-color: #EEEEEE;
+          transition: 0.5s;
+          cursor: pointer; }
+
+.card.bitnesia {
+  background-color: #FFFFFF;
+  padding: 3% !important;
+  box-shadow: 0px 3px 10px #EEEEEE;
+  border: 0px; }
+  .card.bitnesia .title {
+    font-weight: 500;
+    color: #757575; }
+
+.btn-nesia {
+  background-color: #03A9F4;
+  border-color: #03A9F4;
+  border-radius: 2px;
+  border: none;
+  padding: 6px 10px;
+  color: #FFFFFF; }
+  .btn-nesia:focus {
+    outline: 0 !important; }
+
+input.form-control, select.form-control, textarea.form-control {
+  outline: 0;
+  border-color: #BDBDBD;
+  box-shadow: none;
+  border-radius: 2px; }
+  input.form-control:focus, select.form-control:focus, textarea.form-control:focus {
+    box-shadow: none; }
+
+.login-cover {
+  width: 100%;
+  height: 100%; }
+  .login-cover > .box {
+    width: 400px;
+    margin: 100px auto; }
+    .login-cover > .box > .bitnesia.login {
+      box-shadow: 0px 0px 2px #E0E0E0;
+      border-radius: 2px; }
+
+.line-vertical {
+  width: 1px;
+  border-left: 1px solid #E0E0E0;
+  display: inline-block;
+  margin: 10% 0;
+  position: fixed;
+  height: 70%; }
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  /* Font varient */
+  font-variant-ligatures: none;
+  -webkit-font-variant-ligatures: none;
+  /* Smoothing */
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px; }
+
+body {
+  background-color: #FAFAFA !important; }
+
+.content {
+  padding: 80px 20px 20px 270px;
+  width: 100%;
+  float: left; }
+  .content-nopadding {
+    padding: 60px 0px 0px 250px; }
+
+.db-chart {
+  height: 265px;
+  max-height: 265px; }
+
+#myChart {
+  height: 100% !important; }
+
+.db-table-small-icon i {
+  font-size: 32px;
+  margin: 10px;
+  color: #4CAF50; }
+
+.sparator {
+  margin-top: 20px; }
+
+.db-card-small-A01:not(:first-child):not(:last-child) {
+  margin: 8px 0; }
+
+.form-investasi .note {
+  font-size: 14px;
+  padding: 10px;
+  background-color: #F5F5F5;
+  margin: 10px 0;
+  border-radius: 2px; }
+
+.table-investasi {
+  width: 100%; }
+  .table-investasi tr {
+    height: 60px; }
+
+.store-header > img {
+  width: 100% !important; }
+.store-header .store-navbar {
+  height: 50px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 1px 2px #EEEEEE;
+  padding: 0 8px; }
+  .store-header .store-navbar .store-name-info {
+    padding: 1px 25px 8px 15px;
+    display: inline-block;
+    height: 100%;
+    border-bottom: 2px solid #03A9F4;
+    color: #424242; }
+    .store-header .store-navbar .store-name-info > i {
+      font-size: 11px;
+      vertical-align: -7;
+      margin-right: 10px; }
+      .store-header .store-navbar .store-name-info > i.online {
+        color: #74D56A; }
+    .store-header .store-navbar .store-name-info > .store-name {
+      font-size: 18px;
+      font-weight: 500; }
+    .store-header .store-navbar .store-name-info > .status {
+      font-size: 11px;
+      font-weight: 500;
+      display: block;
+      margin: 0 25px; }
+      .store-header .store-navbar .store-name-info > .status.online {
+        color: #74D56A;
+        font-weight: 500; }
+
+.store-content {
+  width: 100%; }
+  .store-content > .row {
+    margin: 0;
+    padding: 15px; }
+    .store-content > .row table {
+      width: 100%; }
+      .store-content > .row table .table-icon {
+        width: 20%; }
+        .store-content > .row table .table-icon > .i-yellow {
+          color: #FFC107; }
+  .store-content .store-progress-bar {
+    width: 100%;
+    height: 10px; }
+
+.store-progress-bar {
+  padding: 10px 0;
+  margin-bottom: 10px; }
+  .store-progress-bar > .progress-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #E0E0E0;
+    border-radius: 3px; }
+  .store-progress-bar > .progress-bar-strip {
+    background-color: #03A9F4;
+    width: 10%;
+    height: 10px;
+    position: relative;
+    top: -10px;
+    border-radius: 3px; }
+
+.store-profile > .store-icon {
+  padding: 10px; }
+  .store-profile > .store-icon .store-profile-icon {
+    width: 100px; }
+.store-profile .store-profile-title {
+  display: block;
+  text-align: center;
+  font-weight: 500; }
+.store-profile .store-profile-tag {
+  display: block;
+  text-align: center;
+  font-size: 12px; }
+.store-profile .separator {
+  padding: 0 30%; }
+.store-profile .store-profile-information {
+  padding: 10px 15%; }
+  .store-profile .store-profile-information .box-line {
+    display: flex;
+    padding: 10px 0; }
+    .store-profile .store-profile-information .box-line .icon {
+      display: inline-block;
+      font-size: 24px;
+      color: #FFC107; }
+      .store-profile .store-profile-information .box-line .icon.icon-red {
+        color: #F44336 !important; }
+      .store-profile .store-profile-information .box-line .icon.icon-green {
+        color: #74D56A !important; }
+    .store-profile .store-profile-information .box-line .text {
+      display: inline-block;
+      padding: 0 20px; }
+
+.store-comment {
+  margin-bottom: 30px; }
+  .store-comment > .store-comment-img {
+    display: inline-block;
+    float: left; }
+  .store-comment > .store-comment-name {
+    width: 80%;
+    min-height: 20px;
+    display: inline-block;
+    float: left;
+    padding: 0 20px;
+    font-weight: 500; }
+  .store-comment > .store-comment-text {
+    width: 80%;
+    min-height: 40px;
+    display: inline-block;
+    float: left;
+    padding: 10px 20px; }
+
+.store-comment-header {
+  font-weight: 500;
+  font-size: 18px;
+  padding-bottom: 20px; }
+  .store-comment-header > span {
+    border-bottom: 2px solid #03A9F4;
+    padding-bottom: 10px;
+    width: 150px;
+    display: inline-block; }
+
+.store-comment-add > textarea {
+  margin-bottom: 20px; }
+
+.store-margin-default-top {
+  margin-top: 15px; }
+
+.store-card-small {
+  min-height: 80px !important; }
+
+coinmarket {
+  display: none; }
+
+.rg {
+  float: right; }
+
+.market-graph-title .market-graph-ticker-item {
+  padding: 10px; }
+
+.market-graph-table-title {
+  font-size: 11px;
+  font-weight: 500;
+  height: 25px;
+  color: #757575; }
+.market-graph-table-value {
+  font-size: 14px;
+  font-weight: 500;
+  height: 0px;
+  color: #212121; }
+  .market-graph-table-value h5.down {
+    color: #F44336; }
+  .market-graph-table-value h5.up {
+    color: #74D56A; }
+  .market-graph-table-value h5 i {
+    font-size: 14px;
+    margin-right: 5px; }
+.market-graph-table-convert {
+  font-size: 11px;
+  font-weight: 500;
+  height: 0px;
+  color: #757575; }
+.market-graph-table-info-type {
+  font-size: 20px;
+  font-weight: 500;
+  height: auto;
+  color: #03A9F4;
+  border-bottom: 1px solid #E0E0E0; }
+.market-graph-table-info-type-title {
+  font-size: 11px;
+  font-weight: 500;
+  height: 25px;
+  color: #757575; }
+.market-graph-table-info-type-value {
+  font-size: 14px;
+  font-weight: 500;
+  height: 0;
+  color: #212121; }
+
+.market-col-line {
+  height: 45px;
+  width: 1px;
+  background-color: #E0E0E0;
+  margin: 25px 2px; }
+
+.market-info-coin-title {
+  width: 30%;
+  border-bottom: 1px solid #E0E0E0;
+  padding: 5px 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: #03A9F4; }
+.market-info-coin-content {
+  padding: 20px 0; }
+  .market-info-coin-content-value {
+    max-height: 460px;
+    overflow-x: hidden;
+    overflow-y: scroll; }
+  .market-info-coin-content > hr {
+    margin: 5px 0; }
+
+.market-line-table-content {
+  display: flex;
+  font-size: 14px;
+  margin: 5px 0;
+  text-decoration: none;
+  color: #424242; }
+  .market-line-table-content:hover {
+    text-decoration: none;
+    color: #424242; }
+  .market-line-table-content > .block-title {
+    width: 75px; }
+  .market-line-table-content > .block-price {
+    width: 90px; }
+  .market-line-table-content > .block-value {
+    width: 80px; }
+  .market-line-table-content .block-change {
+    width: 55px; }
+    .market-line-table-content .block-change > i {
+      font-size: 12px; }
+    .market-line-table-content .block-change.down {
+      color: #F44336; }
+    .market-line-table-content .block-change.up {
+      color: #74D56A; }
+
+html, body {
+  margin: 0; }
+
+body {
+  max-resolution: 0; }
+
+/*# sourceMappingURL=bitnesia-dashboard.css.map */

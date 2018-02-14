@@ -1,0 +1,15 @@
+// Include
+// -Input Text
+// -Input Button
+// -Select Box
+// Etc
+
+input.form-control, select.form-control, textarea.form-control{
+	outline: 0;
+    border-color: $border-input;
+    box-shadow: none;
+    border-radius: $border;
+    &:focus{
+    	box-shadow: none;
+    }
+}

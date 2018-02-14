@@ -1,0 +1,91 @@
+// *Keterangan
+// Navbar digunakan hanya di halaman dashboard
+
+.navigation{
+	width: 100%;
+    height: 60px;
+    position: fixed;
+    box-shadow: 0px 1px $border $grey-200;
+    background-color: $white;
+    z-index: 1000;
+    & .logo{
+    	display: inline-block;
+    	& > img{
+    		height: 60px;
+    	}
+    }
+    & .menu{
+    	display: flex;
+    	float: right;
+    	margin-right: 50px;
+    	> .item{
+    		height: 30px;
+    		margin: 15px;
+    		&.button{
+    			color: $blue;
+    			font-weight: bold;
+    		}
+    	}
+    }
+}
+
+.sidebar{
+    height: 100%;
+    width: 250px;
+    top: 0;
+    position: fixed;
+    margin: 60px 0;
+    box-shadow: 0px 1px $border $grey-200;
+    background-color: $white;
+    float: left;
+    &>.profile{
+        padding: 20px 0;
+        &>.img{
+            padding: 30px 30px 15px 30px;
+            &> img{
+                width: 100px;
+                height: 100px;
+            }
+        }
+        &>.profile-name{
+            display: block;
+            text-align: center;
+            font-weight: 500;
+        }
+        &>.profile-id{
+            display: block;
+            text-align: center;
+            font-size: 12px;
+        }
+    }
+    &>.list{
+        padding: 30px 0;
+        &>.item-block{
+            padding: 0px 30px;
+            display: block;
+            text-decoration: none;
+            &:hover{
+                border-right: 2px solid $grey-200;
+            }
+            &>.item{
+                padding: 15px 20px;
+                color: $black-smoth-color;
+                border-radius: 3px;
+                & .icon-bitnesia{
+                    font-size: 24px;
+                    vertical-align: -3px;
+                    margin-right: 10px;
+                    display: inline-block;
+                    width: 40px;
+                }
+                &:hover{
+                    background-color: #EEEEEE;
+                    transition: 0.5s;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        
+    }
+}

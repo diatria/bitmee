@@ -1,0 +1,11 @@
+.btn-nesia{
+	background-color: $blue;
+	border-color: $blue;
+	border-radius: 2px;
+    border: none;
+    padding: 6px 10px;
+    color: $white;
+	&:focus{
+		outline:0 !important;
+	}
+}
