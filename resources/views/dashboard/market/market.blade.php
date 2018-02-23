@@ -194,6 +194,156 @@
 			</div>
 		</div>
 	</div>
+	<div class="row market-transaction">
+		<div class="col-md-6">
+			<div class="card bitnesia">
+				<div class="title">
+					Beli Bitcoin
+				</div>
+				<div class="body market-card-form">
+					<form action="">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="market-card-form-line-content">
+									<label for="">Saldo</label>
+									<span class="form-text saldo">450.000 IDR</span>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="exampleInputEmail1">Total Rupiah</label>
+									<div class="input-group">
+										<input type="text" class="form-control" aria-label="Text input with dropdown button">
+										<div class="input-group-append">
+											<button class="btn dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><i class="ion-chevron-left"></i></button>
+											<div class="dropdown-menu">
+												<a class="dropdown-item" href="#">25%</a>
+												<a class="dropdown-item" href="#">50%</a>
+												<a class="dropdown-item" href="#">75%</a>
+												<a class="dropdown-item" href="#">100%</a>
+											</div>
+										</div>
+									</div>
+									<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+								</div>	
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="exampleInputEmail1">Harga</label>
+									<div class="input-group">
+										<input type="text" class="form-control" aria-label="Text input with dropdown button">
+										<div class="input-group-append">
+											<button class="btn dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="ion-arrow-left-b"></i></button>
+											<div class="dropdown-menu dropdown-menu-top">
+												<a class="dropdown-item" href="#">25%</a>
+												<a class="dropdown-item" href="#">50%</a>
+												<a class="dropdown-item" href="#">75%</a>
+												<a class="dropdown-item" href="#">100%</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="market-card-form-line-content">
+									<label for="">Biaya</label>
+									<span class="form-text">Maker <span class="text-danger">0%</span> - Taker <span class="text-danger">0,3%</span> </span>
+								</div>
+								
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="market-card-form-line-content">
+									<label for="">Estimasi</label>
+									<span class="form-text text-muted">-</span>
+								</div>
+								
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="card bitnesia">
+				<div class="title">
+					Jual Bitcoin
+				</div>
+				<div class="body market-card-form">
+					<form action="">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="market-card-form-line-content">
+									<label for="">Saldo</label>
+									<span class="form-text saldo">450.000 IDR</span>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="exampleInputEmail1">Total Rupiah</label>
+									<div class="input-group">
+										<input type="text" class="form-control" aria-label="Text input with dropdown button">
+										<div class="input-group-append">
+											<button class="btn dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><i class="ion-chevron-left"></i></button>
+											<div class="dropdown-menu">
+												<a class="dropdown-item" href="#">25%</a>
+												<a class="dropdown-item" href="#">50%</a>
+												<a class="dropdown-item" href="#">75%</a>
+												<a class="dropdown-item" href="#">100%</a>
+											</div>
+										</div>
+									</div>
+									<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+								</div>	
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="exampleInputEmail1">Harga</label>
+									<div class="input-group">
+										<input type="text" class="form-control" aria-label="Text input with dropdown button">
+										<div class="input-group-append">
+											<button class="btn dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><i class="ion-arrow-left-b"></i></button>
+											<div class="dropdown-menu">
+												<a class="dropdown-item" href="#">25%</a>
+												<a class="dropdown-item" href="#">50%</a>
+												<a class="dropdown-item" href="#">75%</a>
+												<a class="dropdown-item" href="#">100%</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="market-card-form-line-content">
+									<label for="">Biaya</label>
+									<span class="form-text">Maker <span class="text-danger">0%</span> - Taker <span class="text-danger">0,3%</span> </span>
+								</div>
+								
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="market-card-form-line-content">
+									<label for="">Estimasi</label>
+									<span class="form-text text-muted">-</span>
+								</div>
+								
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 @else
 <div class="content">

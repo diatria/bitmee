@@ -55,6 +55,8 @@
 </body>
 <script src="{{url('js/jquery-3.2.1.min.js')}}"></script>
 <script src="{{url('js/retina.min.js')}}"></script>
+<script src="{{url('js/popper.min.js')}}"></script>
+<script src="{{url('js/bootstrap.min.js')}}"></script>
 <script src="{{url('js/chart.min.js')}}"></script>
 <script src="{{url('js/highstock.min.js')}}"></script>
 <script src="{{url('js/numeral.min.js')}}"></script>
