@@ -13,6 +13,6 @@ class StoreController extends Controller
 	}
     public function user()
     {
-    	return view('dashboard.store.store');
+    	return view('dashboard.store.store_profil');
     }
 }
