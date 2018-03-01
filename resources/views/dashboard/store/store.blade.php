@@ -19,8 +19,8 @@
 						<div class="card bitnesia db-card-small-A01 store-card-small">
 							<table class="db-table-small-icon">
 								<tr>
-									<td rowspan="2" class="table-icon"><i class="ion-android-star-outline i-yellow"></i></td>
-									<td class="table-title"><div class="title">Rating</div></td>
+									<td rowspan="2" class="table-icon"><i class="ion-android-arrow-dropdown i-red"></i></td>
+									<td class="table-title"><div class="title">Penjualan Voucher</div></td>
 								</tr>
 								<tr>
 									<td>
@@ -39,8 +39,8 @@
 						<div class="card bitnesia db-card-small-A01 store-card-small">
 							<table class="db-table-small-icon">
 								<tr>
-									<td rowspan="2" class="table-icon"><i class="ion-android-star-outline i-yellow"></i></td>
-									<td class="table-title"><div class="title">Rating</div></td>
+									<td rowspan="2" class="table-icon"><i class="ion-android-arrow-dropup i-yellow"></i></td>
+									<td class="table-title"><div class="title">Pembelian Voucher</div></td>
 								</tr>
 								<tr>
 									<td>
