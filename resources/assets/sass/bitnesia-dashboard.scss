@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
 @import 'bitnesia/variable';
+@import 'bitnesia/mixins';
 @import 'bitnesia/global';
 @import 'bitnesia/header';
 @import 'bitnesia/navbar';
@@ -7,6 +8,7 @@
 @import 'bitnesia/progress-bar';
 @import 'costumizer/button';
 @import 'costumizer/form';
+@import 'costumizer/color';
 
 @import 'page/login';
 @import 'page/dashboard';

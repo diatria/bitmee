@@ -25,6 +25,28 @@
     			color: $blue;
     			font-weight: bold;
     		}
+            &.icon{
+                font-size: 24px;
+            }
+            > .dropdown{
+                button{
+                    padding: 0!important;
+                    background-color: transparent;
+                    border-color: transparent;
+                    color: $black;
+                    &::after{
+                        content: none;
+                    }
+                    &:focus{
+                        box-shadow: none;
+                    }
+                }
+                .dropdown-menu.show{
+                    box-shadow: 1px 2px 5px 0px #E0E0E0;
+                    border-color: transparent;
+                    border-radius: $border !important;
+                }
+            }
     	}
     }
 }

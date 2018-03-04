@@ -14,7 +14,20 @@
 				<img src="{{asset('assets/image/bitcoin.png')}}" alt="">
 			</div>
 			<div class="menu">
-				<div class="item">Akun</div>
+				<div class="item icon"><i class="ion-android-notifications-none"></i></div>
+				<div class="item icon"><i class="ion-radio-waves"></i></div>
+				<div class="item">
+					<div class="dropdown">
+						<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Akun
+						</button>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							<a class="dropdown-item" href="#">Ubah Profil</a>
+							<a class="dropdown-item" href="#">Akses Pengguna</a>
+							<a class="dropdown-item" href="#">Keluar</a>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>

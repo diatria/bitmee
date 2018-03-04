@@ -7,4 +7,10 @@
 		font-weight: 500;
 		color: $black-smoth-color2;
 	}
+	& form{
+		margin-top: 30px;
+		& label{
+			font-size: 15px;
+		}
+	}
 }

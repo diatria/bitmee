@@ -1,0 +1,32 @@
+@mixin remover-scrollbar($height-content, $width-scrollbar, $bg-scrollbar){
+	.remover-scrollbar{
+		display: block;
+    	height: $height-content;
+    	position: relative;
+    	&>.nav-right{
+    		position: absolute;
+		    right: 0;
+		    display: inline-block;
+		    top: 0;
+		    height: 40px;
+		    padding: 12px 10px;
+		    background-color: rgba(117,117,117,0.2);
+    	}
+    	&>.nav-left{
+    		position: absolute;
+		    left: 0;
+		    display: inline-block;
+		    top: 0;
+		    height: 40px;
+		    padding: 12px 10px;
+		    background-color: rgba(117,117,117,0.2);
+    	}
+    	&>.remover{
+    		width: $width-scrollbar;
+		    height: 20px;
+		    position: relative;
+		    top: -17px;
+		    background-color: $bg-scrollbar;
+    	}
+	}
+}
