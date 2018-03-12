@@ -52,10 +52,13 @@
 							
 							<ul class="nav nav-tabs d-none" id="myTab" role="tablist">
 								<li class="nav-item">
-									<a class="nav-link active" id="form-deposit-tab" data-toggle="tab" href="#form-deposit" role="tab" aria-controls="form-deposit" aria-selected="true">Home</a>
+									<a class="nav-link active" id="form-deposit-tab" data-toggle="tab" href="#form-deposit" role="tab" aria-controls="form-deposit" aria-selected="true">Form Deposit</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" id="kebijakan-deposit-tab" data-toggle="tab" href="#kebijakan-deposit" role="tab" aria-controls="kebijakan-deposit" aria-selected="false">Profile</a>
+									<a class="nav-link" id="kebijakan-deposit-tab" data-toggle="tab" href="#kebijakan-deposit" role="tab" aria-controls="kebijakan-deposit" aria-selected="false">Kebijakan Deposit</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" id="saldo-deposit-tab" data-toggle="tab" href="#saldo-deposit" role="tab" aria-controls="saldo-deposit" aria-selected="false">Saldo Deposit</a>
 								</li>
 							</ul>
 
@@ -76,12 +79,62 @@
 								</div>
 								<div class="tab-pane fade" id="kebijakan-deposit" role="tabpanel" aria-labelledby="kebijakan-deposit-tab">
 									<div class="title">
-										Persyaratan Deposit
+										Informasi Deposit
 									</div>
-									<p class="lead">
-										Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.
-									</p>
-									<button type="button" class="btn btn-nesia btn-block" id="kebijakan-deposit-button">Proses</button>
+									<p class="mt-4">1. Fee deposit sebesar <code>15.000</code> <small>IDR</small>. Otomatis dipotong pada saldo voucher Anda.</p>
+									<p>2. Voucher dapat diperjual belikan tanpa potongan tambahan.</p>
+									<p>3. Voucher dapat digunakan untuk bertransaksi di Bitnesa Store.</p>
+									<button type="button" class="btn btn-nesia btn-block" id="saldo-deposit-button">Proses</button>
+								</div>
+								<div class="tab-pane fade" id="saldo-deposit" role="tabpanel" aria-labelledby="saldo-deposit-tab">
+									<div class="title line">
+										Rincian Deposit
+									</div>
+									<div class="row">
+										<div class="col-md-6 mt-5">
+											<h5 class="text-center">Anda berhasil topup sebesar</h5>
+											<h1 class="text-center text-green">1.200.000 IDR</h1>
+										</div>
+										<div class="col-md-6">
+											<table class="store-table-invoice">
+												<tr>
+													<td>
+														<span class="text-bold">voucher</span>
+													</td>
+													<td class="text-right">
+														<span>1.500.000 IDR</span>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<span class="text-bold">Fee</span>
+													</td>
+													<td class="text-right">
+														<span>15.000 IDR</span>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<span class="text-bold">Potongan</span>
+													</td>
+													<td class="text-right">
+														<span>0 IDR</span>
+													</td>
+												</tr>
+												<tr>
+													<td colspan="2"><hr></td>
+												</tr>
+												<tr>
+													<td>
+														<span class="text-bold">Jumlah voucher</span>
+													</td>
+													<td class="text-right">
+														<span class="text-green">0 IDR</span>
+													</td>
+												</tr>
+											</table>	
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -133,6 +186,9 @@
 	$(document).ready(function(){
 		$('#kebijakan-deposit-button').click(function(){
 			$('#myTab #kebijakan-deposit-tab').tab('show')
+		});
+		$('#saldo-deposit-button').click(function(){
+			$('#myTab #saldo-deposit-tab').tab('show')
 		});
 	});
 </script>

@@ -6,6 +6,10 @@
 	& .title{
 		font-weight: 500;
 		color: $black-smoth-color2;
+		&.line {
+			border-bottom: 1px solid $border-color;
+    		padding-bottom: 10px;
+		}
 	}
 	& form{
 		margin-top: 30px;

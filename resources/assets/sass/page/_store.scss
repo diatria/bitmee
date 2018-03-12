@@ -239,6 +239,14 @@
 	}
 }
 
+.store-table-invoice{
+	& tr {
+		& > td, th {
+			padding: 15px 0 0 0;
+		}
+	}
+}
+
 // Attribute
 .store-margin-default-top{
 	margin-top: 15px;
