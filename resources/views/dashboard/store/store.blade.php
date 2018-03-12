@@ -46,11 +46,52 @@
 						</div>
 					</div>
 				</div>
+				<div class="row row-mgt-15">
+					<div class="col-md-12">
+						<div class="card bitnesia">
+							
+							<ul class="nav nav-tabs d-none" id="myTab" role="tablist">
+								<li class="nav-item">
+									<a class="nav-link active" id="form-deposit-tab" data-toggle="tab" href="#form-deposit" role="tab" aria-controls="form-deposit" aria-selected="true">Home</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" id="kebijakan-deposit-tab" data-toggle="tab" href="#kebijakan-deposit" role="tab" aria-controls="kebijakan-deposit" aria-selected="false">Profile</a>
+								</li>
+							</ul>
+
+							<div class="tab-content" id="myTabContent">
+								<div class="tab-pane fade show active" id="form-deposit" role="tabpanel" aria-labelledby="form-deposit-tab">
+									<div class="title">
+										Deposit Voucher
+									</div>
+									<form action="">
+										<div class="form-group">
+											<label for="nominal">Masukan kode voucher</label>
+											<input type="email" class="form-control" id="nominal" aria-describedby="nominal" placeholder="Kode voucher">
+										</div>
+										<div class="form-group">
+											<button type="button" class="btn btn-nesia btn-block" id="kebijakan-deposit-button">Lanjutkan</button>
+										</div>
+									</form>
+								</div>
+								<div class="tab-pane fade" id="kebijakan-deposit" role="tabpanel" aria-labelledby="kebijakan-deposit-tab">
+									<div class="title">
+										Persyaratan Deposit
+									</div>
+									<p class="lead">
+										Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.
+									</p>
+									<button type="button" class="btn btn-nesia btn-block" id="kebijakan-deposit-button">Proses</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4 dp-grid">
 				<div class="card bitnesia">
 					<div class="title">
-						Beli Voucher
+						Beli Voucher Instan
 					</div>
 					<form action="">
 						<div class="form-group">
@@ -88,4 +129,11 @@
 @endsection
 @section('footer')
 <script src="{{url('js/bitnesia/bitnesia.js')}}"></script>
+<script>
+	$(document).ready(function(){
+		$('#kebijakan-deposit-button').click(function(){
+			$('#myTab #kebijakan-deposit-tab').tab('show')
+		});
+	});
+</script>
 @endsection
