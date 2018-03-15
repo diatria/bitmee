@@ -105,7 +105,7 @@
 												</tr>
 												<tr>
 													<td>
-														<span class="text-bold">Diskon</span>
+														<span class="text-bold">Potongan</span>
 													</td>
 													<td class="text-right">
 														<span>0 IDR</span>
@@ -133,97 +133,51 @@
 			</div>
 			<div class="col-md-4 dp-grid">
 				<div class="card bitnesia">
-					<ul class="nav nav-tabs d-none" id="voucher-tab" role="tablist">
-						<li class="nav-item">
-							<a class="nav-link active" id="form-voucher-tab" data-toggle="tab" href="#form-voucher" role="tab" aria-controls="form-voucher" aria-selected="true">Form Pembelian Voucher</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" id="kebijakan-voucher-tab" data-toggle="tab" href="#kebijakan-voucher" role="tab" aria-controls="kebijakan-voucher" aria-selected="false">Kebijakan Pembelian Voucher</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" id="saldo-voucher-tab" data-toggle="tab" href="#saldo-voucher" role="tab" aria-controls="saldo-voucher" aria-selected="false">Saldo Pembelian Voucher</a>
-						</li>
-					</ul>
-					
-					<div class="tab-content" id="voucher-tab-content">
-						<div class="tab-pane fade show active" id="form-voucher" role="tabpanel" aria-labelledby="form-voucher-tab">
+					<form action="">
+						<ul class="nav nav-tabs d-none" id="myTab" role="tablist">
+							<li class="nav-item">
+								<a class="nav-link active" id="form-deposit-tab" data-toggle="tab" href="#form-deposit" role="tab" aria-controls="form-deposit" aria-selected="true">Form Pembelian Voucher</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="kebijakan-deposit-tab" data-toggle="tab" href="#kebijakan-deposit" role="tab" aria-controls="kebijakan-deposit" aria-selected="false">Kebijakan Pembelian Voucher</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="saldo-deposit-tab" data-toggle="tab" href="#saldo-deposit" role="tab" aria-controls="saldo-deposit" aria-selected="false">Saldo Pembelian Voucher</a>
+							</li>
+						</ul>
+
+						<div class="tab-content" id="myTabContent">
 							<div class="title">
 								Beli Voucher
 							</div>
-							<form action="">
-								<div class="form-group">
-									<label for="nominal">Total Voucher</label>
-									<input type="email" class="form-control" id="nominal" aria-describedby="nominal" placeholder="Total Voucher">
-								</div>
-								<div class="form-group">
-									<label for="bank">Pilih metode pembayaran</label>
-									<div class="remover-scrollbar">
-										<div class="store-list-bank">
-											<div class="store-list-bank-scroll">
-												<div class="list icon-mandiri"></div>
-												<div class="list icon-bca"></div>
-												<div class="list icon-btpn"></div>
-												<div class="list icon-jenius"></div>
-												<div class="list icon-doku"></div>
-												<div class="list icon-gopay"></div>
-											</div>
+							<div class="form-group">
+								<label for="nominal">Total Voucher</label>
+								<input type="email" class="form-control" id="nominal" aria-describedby="nominal" placeholder="Total Voucher">
+							</div>
+							<div class="form-group">
+								<label for="bank">Pilih metode pembayaran</label>
+								<div class="remover-scrollbar">
+									<div class="store-list-bank">
+										<div class="store-list-bank-scroll">
+											<div class="list icon-mandiri"></div>
+											<div class="list icon-bca"></div>
+											<div class="list icon-btpn"></div>
+											<div class="list icon-jenius"></div>
+											<div class="list icon-doku"></div>
+											<div class="list icon-gopay"></div>
 										</div>
-										<div class="nav-right" id="scroll-right" data-scroll="75"><i class="ion-chevron-right"></i></div>
-										<div class="remover"></div>
-										<div class="nav-left" id="scroll-left" data-scroll="75"><i class="ion-chevron-left"></i></div>
 									</div>
+									<div class="nav-right" id="scroll-right" data-scroll="75"><i class="ion-chevron-right"></i></div>
+									<div class="remover"></div>
+									<div class="nav-left" id="scroll-left" data-scroll="75"><i class="ion-chevron-left"></i></div>
 								</div>
-								<div class="form-group">
-									<button type="button" class="btn btn-nesia btn-block" id="kebijakan-voucher-button">Lanjutkan</button>
-								</div>
-							</form>
+							</div>
+							<div class="form-group">
+								<button type="submit" class="btn btn-nesia btn-block">Lanjutkan</button>
+							</div>
 						</div>
 
-						<div class="tab-pane fade" id="kebijakan-voucher" role="tabpanel" aria-labelledby="kebijakan-voucher-tab">
-							<div class="title line">
-								Rincian Pembelian Voucher
-							</div>
-							<div class="row">
-								<div class="col-md-12 mt-4">
-									<h1 class="text-center text-yellow">Menunggu</h1>
-									<hr>
-									<table class="store-table-invoice">
-										<tr>
-											<td>
-												<span class="text-bold">Voucher</span>
-											</td>
-											<td class="text-right">
-												<span>1.200.000 IDR</span>
-											</td>
-										</tr>
-										<tr>
-											<td><span class="text-bold">Fee</span></td>
-											<td class="text-right">
-												<span>2.500 IDR</span>
-											</td>
-										</tr>
-										<tr>
-											<td><span class="text-bold">Diskon</span></td>
-											<td class="text-right">
-												0 IDR
-											</td>
-										</tr>
-										<tr>
-											<td colspan="2"><hr></td>
-										</tr>
-										<tr>
-											<td>
-												<span class="text-bold">Jumlah Voucher</span>
-											</td>
-											<td class="text-right">
-												<span class="text-green">0 IDR</span>
-											</td>
-										</tr>
-									</table>
-								</div>
-							</div>
-						</div>
-					</div>
+					</form>
 				</div>
 			</div>
 		</div>
@@ -240,9 +194,6 @@
 		});
 		$('#saldo-deposit-button').click(function(){
 			$('#myTab #saldo-deposit-tab').tab('show')
-		});
-		$('#kebijakan-voucher-button').click(function(){
-			$('#voucher-tab #kebijakan-voucher-tab').tab('show');
 		});
 	});
 </script>
