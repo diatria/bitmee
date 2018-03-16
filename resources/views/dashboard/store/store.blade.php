@@ -138,10 +138,10 @@
 							<a class="nav-link active" id="form-voucher-tab" data-toggle="tab" href="#form-voucher" role="tab" aria-controls="form-voucher" aria-selected="true">Form Pembelian Voucher</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" id="kebijakan-voucher-tab" data-toggle="tab" href="#kebijakan-voucher" role="tab" aria-controls="kebijakan-voucher" aria-selected="false">Kebijakan Pembelian Voucher</a>
+							<a class="nav-link" id="pembayaran-voucher-tab" data-toggle="tab" href="#pembayaran-voucher" role="tab" aria-controls="pembayaran-voucher" aria-selected="false">Pembayaran Voucher</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" id="saldo-voucher-tab" data-toggle="tab" href="#saldo-voucher" role="tab" aria-controls="saldo-voucher" aria-selected="false">Saldo Pembelian Voucher</a>
+							<a class="nav-link" id="kebijakan-voucher-tab" data-toggle="tab" href="#kebijakan-voucher" role="tab" aria-controls="kebijakan-voucher" aria-selected="false">Kebijakan Pembelian Voucher</a>
 						</li>
 					</ul>
 					
@@ -174,9 +174,29 @@
 									</div>
 								</div>
 								<div class="form-group">
-									<button type="button" class="btn btn-nesia btn-block" id="kebijakan-voucher-button">Lanjutkan</button>
+									<button type="button" class="btn btn-nesia btn-block" id="pembayaran-voucher-button">Lanjutkan</button>
 								</div>
 							</form>
+						</div>
+
+						<div class="tab-pane fade" id="pembayaran-voucher" role="tabpanel" aria-labelledby="pembayaran-voucher-tab">
+							<div class="title line">
+								Pembayaran Voucher
+							</div>
+							<div class="row">
+								<div class="col-md-12 mt-4">
+									<div class="text-center">Mohon lakukan pembayaran sebelum</div>
+									<div class="text-center text-bg-grey mt-2">Rabu, 14 Agustus 2019</div>
+									<h6 class="text-center mt-3">Lakukan pembayaran sebesar</h6>
+									<h2 class="text-center text-grey">1.200.765 IDR</h2>
+									<div class="payment">
+										<div class="payment-name text-bold">Bank Mandiri</div>
+										<img src="" alt="">
+										<div class="an text-center">a.n <span class="text-bold">Dimas Adi Satria</span></div>
+										
+									</div>
+								</div>
+							</div>
 						</div>
 
 						<div class="tab-pane fade" id="kebijakan-voucher" role="tabpanel" aria-labelledby="kebijakan-voucher-tab">
@@ -241,8 +261,8 @@
 		$('#saldo-deposit-button').click(function(){
 			$('#myTab #saldo-deposit-tab').tab('show')
 		});
-		$('#kebijakan-voucher-button').click(function(){
-			$('#voucher-tab #kebijakan-voucher-tab').tab('show');
+		$('#pembayaran-voucher-button').click(function(){
+			$('#voucher-tab #pembayaran-voucher-tab').tab('show');
 		});
 	});
 </script>
