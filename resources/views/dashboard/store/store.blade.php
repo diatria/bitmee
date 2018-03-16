@@ -185,15 +185,23 @@
 							</div>
 							<div class="row">
 								<div class="col-md-12 mt-4">
-									<div class="text-center">Mohon lakukan pembayaran sebelum</div>
-									<div class="text-center text-bg-grey mt-2">Rabu, 14 Agustus 2019</div>
-									<h6 class="text-center mt-3">Lakukan pembayaran sebesar</h6>
-									<h2 class="text-center text-grey">1.200.765 IDR</h2>
+									<div class="text-center">
+										<small>Lakukan pembayaran sebesar</small>
+										<h3 class="text-center text-grey">1.200.765 IDR</h3>
+									</div>
+									<div class="text-center">
+										<small>Pembayaran berlaku hingga</small>
+										<span class="text-grey d-block">Rabu, 10 Oktober 2019 20:15</span>
+									</div>
+									
+									<hr>
 									<div class="payment">
-										<div class="payment-name text-bold">Bank Mandiri</div>
+										<div class="payment-number"></div>
+										<div class="payment-name text-bold text-grey">Bank Mandiri</div>
 										<img src="" alt="">
-										<div class="an text-center">a.n <span class="text-bold">Dimas Adi Satria</span></div>
-										
+										<div class="an text-center text-grey text-font-normal">No. Rek <span class="text-bold text-black">0123456789</span></div>
+										<div class="an text-center text-grey text-font-normal">a.n <span class="text-bold text-black">Dimas Adi Satria</span></div>
+										<button type="button" class="btn btn-nesia btn-block mt-2" id="pembayaran-voucher-button">Lanjutkan</button>
 									</div>
 								</div>
 							</div>
