@@ -1,0 +1,42 @@
+.table.#{$brand}{
+	&.table-striped{
+		& thead {
+			& th{
+				border: 0;
+			}
+		}
+		& tbody tr {
+			&:nth-of-type(odd){
+				background-color: rgba($grey-200, 0.4);
+				& th {
+					border: 0px;
+				}
+				& td {
+					border: 0px;
+				}
+			}
+			& td, th {
+				border: 0px;
+			}
+		}
+	}
+	& thead {
+		& th{
+			border: 0;
+		}
+	}
+	& tbody tr {
+		&:nth-of-type(odd){
+			background-color: $grey-200;
+			& th {
+				border: 0px;
+			}
+			& td {
+				border: 0px;
+			}
+		}
+		& td {
+			border-top: 1px solid $border-color;
+		}
+	}
+}

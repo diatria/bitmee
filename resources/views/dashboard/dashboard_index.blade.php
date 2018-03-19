@@ -3,12 +3,12 @@
 <div class="content">
 	<div class="row">
 		<div class="col-md-8">
-			<div class="card bitnesia db-chart">
+			<div class="card bitmee db-chart">
 				<canvas id="myChart"></canvas>
 			</div>
 		</div>
 		<div class="col-md-4">
-			<div class="card bitnesia db-card-small-A01">
+			<div class="card bitmee db-card-small-A01">
 				<table class="db-table-small-icon">
 					<tr>
 						<td rowspan="2"><i class="ion-social-usd"></i></td>
@@ -19,7 +19,7 @@
 					</tr>
 				</table>
 			</div>
-			<div class="card bitnesia db-card-small-A01">
+			<div class="card bitmee db-card-small-A01">
 				<table class="db-table-small-icon">
 					<tr>
 						<td rowspan="2"><i class="ion-social-usd"></i></td>
@@ -30,7 +30,7 @@
 					</tr>
 				</table>
 			</div>
-			<div class="card bitnesia db-card-small-A01">
+			<div class="card bitmee db-card-small-A01">
 				<table class="db-table-small-icon">
 					<tr>
 						<td rowspan="2"><i class="ion-social-usd"></i></td>
@@ -45,7 +45,7 @@
 	</div>
 	<div class="row sparator">
 		<div class="col-md-6">
-			<div class="card bitnesia form-investasi">
+			<div class="card bitmee form-investasi">
 				<div class="title">Investasi</div>
 				<table class="table-investasi">
 					<tr>
@@ -66,7 +66,7 @@
 					</tr>
 				</table>
 				<span class="note">
-					Dengan ini saya mengakad-kan uang saya untuk dipakai jual beli bitcoin dengan sistem bagi hasil berpersentase 60% untuk pemodal dan 40% untuk Bitnesia.
+					Dengan ini saya mengakad-kan uang saya untuk dipakai jual beli bitcoin dengan sistem bagi hasil berpersentase 60% untuk pemodal dan 40% untuk Bitmee.
 				</span>
 				<button class="btn-nesia">Lanjutkan</button>
 			</div>

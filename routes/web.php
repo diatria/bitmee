@@ -22,6 +22,7 @@ Route::get('dashboard', 'Dashboard\DashboardController@index');
 // STORE
 Route::get('store', 'Dashboard\Store\StoreController@index');
 Route::get('store/user', 'Dashboard\Store\StoreController@user');
+Route::get('store/history/transaksi', 'Dashboard\Store\StoreController@historyTransaksi');
 
 // MARKET
 Route::get('market/{cointype}', 'Dashboard\Market\MarketController@index');

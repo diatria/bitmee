@@ -14,6 +14,13 @@
     		height: 60px;
     	}
     }
+    & .brand{
+        position: absolute;
+        display: inline-block;
+        padding: 17px 0px;
+        font-size: 18px;
+        font-weight: 500;
+    }
     & .menu{
     	display: flex;
     	float: right;
@@ -90,13 +97,13 @@
                 border-right: 2px solid $grey-200;
             }
             &>.item{
-                padding: 15px 20px;
+                padding: 15px 5px;
                 color: $black-smoth-color;
                 border-radius: 3px;
-                & .icon-bitnesia{
+                & .icon-bitmee{
                     font-size: 24px;
                     vertical-align: -3px;
-                    margin-right: 10px;
+                    margin-right: 0px;
                     display: inline-block;
                     width: 40px;
                 }

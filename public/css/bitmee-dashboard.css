@@ -37,6 +37,12 @@
     display: inline-block; }
     .navigation .logo > img {
       height: 60px; }
+  .navigation .brand {
+    position: absolute;
+    display: inline-block;
+    padding: 17px 0px;
+    font-size: 18px;
+    font-weight: 500; }
   .navigation .menu {
     display: flex;
     float: right;
@@ -96,13 +102,13 @@
       .sidebar > .list > .item-block:hover {
         border-right: 2px solid #EEEEEE; }
       .sidebar > .list > .item-block > .item {
-        padding: 15px 20px;
+        padding: 15px 5px;
         color: #616161;
         border-radius: 3px; }
-        .sidebar > .list > .item-block > .item .icon-bitnesia {
+        .sidebar > .list > .item-block > .item .icon-bitmee {
           font-size: 24px;
           vertical-align: -3px;
-          margin-right: 10px;
+          margin-right: 0px;
           display: inline-block;
           width: 40px; }
         .sidebar > .list > .item-block > .item:hover {
@@ -110,20 +116,22 @@
           transition: 0.5s;
           cursor: pointer; }
 
-.card.bitnesia {
+.card.bitmee {
   background-color: #FFFFFF;
   padding: 3% !important;
   box-shadow: 0px 3px 10px #EEEEEE;
   border: 0px; }
-  .card.bitnesia .title {
+  .card.bitmee .title {
     font-weight: 500;
     color: #757575; }
-    .card.bitnesia .title.line {
+    .card.bitmee .title.line {
       border-bottom: 1px solid #E0E0E0;
       padding-bottom: 10px; }
-  .card.bitnesia form {
+  .card.bitmee .content {
+    padding: 0; }
+  .card.bitmee form {
     margin-top: 30px; }
-    .card.bitnesia form label {
+    .card.bitmee form label {
       font-size: 15px; }
 
 .row-mgt-15 {
@@ -139,6 +147,9 @@
 
 .text-font-normal {
   font-size: 14px; }
+
+.bank-mandiri {
+  background: url("../assets/image//bank/mandiri.png"); }
 
 .btn-nesia {
   background-color: #03A9F4;
@@ -172,13 +183,34 @@ input.form-control, select.form-control, textarea.form-control {
 .text-grey {
   color: #616161 !important; }
 
+.table.bitmee.table-striped thead th {
+  border: 0; }
+.table.bitmee.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(238, 238, 238, 0.4); }
+  .table.bitmee.table-striped tbody tr:nth-of-type(odd) th {
+    border: 0px; }
+  .table.bitmee.table-striped tbody tr:nth-of-type(odd) td {
+    border: 0px; }
+.table.bitmee.table-striped tbody tr td, .table.bitmee.table-striped tbody tr th {
+  border: 0px; }
+.table.bitmee thead th {
+  border: 0; }
+.table.bitmee tbody tr:nth-of-type(odd) {
+  background-color: #EEEEEE; }
+  .table.bitmee tbody tr:nth-of-type(odd) th {
+    border: 0px; }
+  .table.bitmee tbody tr:nth-of-type(odd) td {
+    border: 0px; }
+.table.bitmee tbody tr td {
+  border-top: 1px solid #E0E0E0; }
+
 .login-cover {
   width: 100%;
   height: 100%; }
   .login-cover > .box {
     width: 400px;
     margin: 100px auto; }
-    .login-cover > .box > .bitnesia.login {
+    .login-cover > .box > .bitmee.login {
       box-shadow: 0px 0px 2px #E0E0E0;
       border-radius: 2px; }
 
@@ -448,6 +480,20 @@ body {
 .store-table-invoice tr > td, .store-table-invoice tr th {
   padding: 15px 0 0 0; }
 
+.store-payment {
+  position: inherit; }
+  .store-payment .bank-placeholder-image {
+    width: 100%;
+    height: 65px;
+    position: absolute; }
+    .store-payment .bank-placeholder-image .bank-mandiri {
+      background-size: 200px;
+      width: 100%;
+      height: inherit;
+      background-repeat: no-repeat;
+      background-position: top;
+      opacity: 0.05; }
+
 .store-margin-default-top {
   margin-top: 15px; }
 
@@ -584,4 +630,4 @@ html, body {
 body {
   max-resolution: 0; }
 
-/*# sourceMappingURL=bitnesia-dashboard.css.map */
+/*# sourceMappingURL=bitmee-dashboard.css.map */

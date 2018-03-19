@@ -6,7 +6,7 @@
 			<div class="col-md-8">
 				<div class="row">
 					<div class="col-md-6">
-						<div class="card bitnesia db-card-small-A01 store-card-small">
+						<div class="card bitmee db-card-small-A01 store-card-small">
 							<table class="px-store db-table-small-icon">
 								<tr>
 									<td rowspan="2" class="table-icon"><i class="ion-android-arrow-dropdown text-red"></i></td>
@@ -21,7 +21,7 @@
 						</div>
 					</div>
 					<div class="col-md-6">
-						<div class="card bitnesia db-card-small-A01 store-card-small">
+						<div class="card bitmee db-card-small-A01 store-card-small">
 							<table class="px-store db-table-small-icon">
 								<tr>
 									<td rowspan="2" class="table-icon"><i class="ion-android-arrow-dropup text-green"></i></td>
@@ -38,7 +38,7 @@
 				</div>
 				<div class="row row-mgt-15">
 					<div class="col-md-12">
-						<div class="card bitnesia">
+						<div class="card bitmee">
 							
 							<ul class="nav nav-tabs d-none" id="myTab" role="tablist">
 								<li class="nav-item">
@@ -132,7 +132,7 @@
 				</div>
 			</div>
 			<div class="col-md-4 dp-grid">
-				<div class="card bitnesia">
+				<div class="card bitmee">
 					<ul class="nav nav-tabs d-none" id="voucher-tab" role="tablist">
 						<li class="nav-item">
 							<a class="nav-link active" id="form-voucher-tab" data-toggle="tab" href="#form-voucher" role="tab" aria-controls="form-voucher" aria-selected="true">Form Pembelian Voucher</a>
@@ -141,7 +141,7 @@
 							<a class="nav-link" id="pembayaran-voucher-tab" data-toggle="tab" href="#pembayaran-voucher" role="tab" aria-controls="pembayaran-voucher" aria-selected="false">Pembayaran Voucher</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" id="kebijakan-voucher-tab" data-toggle="tab" href="#kebijakan-voucher" role="tab" aria-controls="kebijakan-voucher" aria-selected="false">Kebijakan Pembelian Voucher</a>
+							<a class="nav-link" id="invoice-voucher-tab" data-toggle="tab" href="#invoice-voucher" role="tab" aria-controls="invoice-voucher" aria-selected="false">Kebijakan Pembelian Voucher</a>
 						</li>
 					</ul>
 					
@@ -151,21 +151,22 @@
 								Beli Voucher
 							</div>
 							<form action="">
+								<input type="hidden" name="bank" class="input-bank" value="">
 								<div class="form-group">
 									<label for="nominal">Total Voucher</label>
-									<input type="email" class="form-control" id="nominal" aria-describedby="nominal" placeholder="Total Voucher">
+									<input type="text" name="nominal" class="form-control" id="nominal" aria-describedby="nominal" placeholder="Total Voucher">
 								</div>
 								<div class="form-group">
 									<label for="bank">Pilih metode pembayaran</label>
 									<div class="remover-scrollbar">
 										<div class="store-list-bank">
 											<div class="store-list-bank-scroll">
-												<div class="list icon-mandiri"></div>
-												<div class="list icon-bca"></div>
-												<div class="list icon-btpn"></div>
-												<div class="list icon-jenius"></div>
-												<div class="list icon-doku"></div>
-												<div class="list icon-gopay"></div>
+												<div class="list icon-mandiri payment-code" data-bank="mandiri"></div>
+												<div class="list icon-bca payment-code" data-bank="bca"></div>
+												<div class="list icon-btpn payment-code" data-bank="btpn"></div>
+												<div class="list icon-jenius payment-code" data-bank="jenius"></div>
+												<div class="list icon-doku payment-code" data-bank="doku"></div>
+												<div class="list icon-gopay payment-code" data-bank="gopay"></div>
 											</div>
 										</div>
 										<div class="nav-right" id="scroll-right" data-scroll="75"><i class="ion-chevron-right"></i></div>
@@ -195,24 +196,26 @@
 									</div>
 									
 									<hr>
-									<div class="payment">
-										<div class="payment-number"></div>
-										<div class="payment-name text-bold text-grey">Bank Mandiri</div>
+									<div class="store-payment">
+										<div class="bank-placeholder-image">
+											<div class="bank-mandiri"></div>
+										</div>
+										<div class="text-center payment-name text-bold text-grey">Bank Mandiri</div>
 										<img src="" alt="">
 										<div class="an text-center text-grey text-font-normal">No. Rek <span class="text-bold text-black">0123456789</span></div>
 										<div class="an text-center text-grey text-font-normal">a.n <span class="text-bold text-black">Dimas Adi Satria</span></div>
-										<button type="button" class="btn btn-nesia btn-block mt-2" id="pembayaran-voucher-button">Lanjutkan</button>
+										<button type="button" class="btn btn-nesia btn-block mt-2" id="invoice-voucher-button">Lanjutkan</button>
 									</div>
 								</div>
 							</div>
 						</div>
 
-						<div class="tab-pane fade" id="kebijakan-voucher" role="tabpanel" aria-labelledby="kebijakan-voucher-tab">
+						<div class="tab-pane fade" id="invoice-voucher" role="tabpanel" aria-labelledby="invoice-voucher-tab">
 							<div class="title line">
 								Rincian Pembelian Voucher
 							</div>
 							<div class="row">
-								<div class="col-md-12 mt-4">
+								<div class="col-md-12 mt-1">
 									<h1 class="text-center text-yellow">Menunggu</h1>
 									<hr>
 									<table class="store-table-invoice">
@@ -240,10 +243,10 @@
 											<td colspan="2"><hr></td>
 										</tr>
 										<tr>
-											<td>
+											<td style="padding: 0">
 												<span class="text-bold">Jumlah Voucher</span>
 											</td>
-											<td class="text-right">
+											<td class="text-right" style="padding: 0">
 												<span class="text-green">0 IDR</span>
 											</td>
 										</tr>
@@ -260,7 +263,8 @@
 </div>
 @endsection
 @section('footer')
-<script src="{{url('js/bitnesia/bitnesia.js')}}"></script>
+<script src="{{url('js/bitmee/bitmee.min.js')}}"></script>
+<script src="{{url('js/bitmee/store.min.js')}}"></script>
 <script>
 	$(document).ready(function(){
 		$('#kebijakan-deposit-button').click(function(){
@@ -271,6 +275,9 @@
 		});
 		$('#pembayaran-voucher-button').click(function(){
 			$('#voucher-tab #pembayaran-voucher-tab').tab('show');
+		});
+		$('#invoice-voucher-button').click(function(){
+			$('#voucher-tab #invoice-voucher-tab').tab('show');
 		});
 	});
 </script>

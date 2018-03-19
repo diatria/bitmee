@@ -10,7 +10,7 @@
 <div class="content">
 	<div class="row">
 		<div class="col-md-8">
-			<div class="card bitnesia">
+			<div class="card bitmee">
 				<div class="market-graph-title">
 					<div class="row">
 						<div class="col-md-3 market-graph-ticker">
@@ -100,7 +100,7 @@
 			</div>
 		</div>
 		<div class="col-md-4">
-			<div class="card bitnesia">
+			<div class="card bitmee">
 				<div class="market-info-coin">
 					<div class="market-info-coin-title">
 						Market
@@ -196,7 +196,7 @@
 	</div>
 	<div class="row market-transaction">
 		<div class="col-md-6">
-			<div class="card bitnesia">
+			<div class="card bitmee">
 				<div class="title">
 					Beli Bitcoin
 				</div>
@@ -270,7 +270,7 @@
 			</div>
 		</div>
 		<div class="col-md-6">
-			<div class="card bitnesia">
+			<div class="card bitmee">
 				<div class="title">
 					Jual Bitcoin
 				</div>
@@ -357,7 +357,7 @@
 <script src="{{url('js/jquery-ui.min.js')}}"></script>
 <script src="{{url('js/socket.min.js')}}"></script>
 <script src="{{url('js/ihr.min.js')}}"></script>
-<script src="{{url('js/bitnesia/market.js')}}"></script>
+<script src="{{url('js/bitmee/market.js')}}"></script>
 <script>
 	
 </script>

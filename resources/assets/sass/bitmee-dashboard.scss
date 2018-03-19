@@ -1,16 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
-@import 'bitnesia/variable';
-@import 'bitnesia/mixins';
-@import 'bitnesia/global';
-@import 'bitnesia/header';
-@import 'bitnesia/navbar';
-@import 'bitnesia/card';
-@import 'bitnesia/row';
-@import 'bitnesia/typography';
-@import 'bitnesia/progress-bar';
+@import 'bitmee/variable';
+@import 'bitmee/mixins';
+@import 'bitmee/global';
+@import 'bitmee/header';
+@import 'bitmee/navbar';
+@import 'bitmee/card';
+@import 'bitmee/row';
+@import 'bitmee/typography';
+@import 'bitmee/bank';
+@import 'bitmee/progress-bar';
 @import 'costumizer/button';
 @import 'costumizer/form';
 @import 'costumizer/color';
+@import 'costumizer/table';
 
 @import 'page/login';
 @import 'page/dashboard';

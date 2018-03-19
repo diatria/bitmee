@@ -1,8 +1,8 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Bitnesia</title>
-	<link rel="stylesheet" href="{{url('css/bitnesia.css')}}">
+	<title>Bitmee</title>
+	<link rel="stylesheet" href="{{url('css/bitmee.css')}}">
 	<link rel="stylesheet" href="{{url('css/bootstrap.min.css')}}">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>

@@ -15,4 +15,8 @@ class StoreController extends Controller
     {
     	return view('dashboard.store.store_profil');
     }
+    public function historyTransaksi()
+    {
+    	return view('dashboard.store.history.transaksi');
+    }
 }

@@ -6,7 +6,7 @@
 		<div class="store-navbar">
 			<div class="store-name-info">
 				<i class="ion-record online"></i>
-				<span class="store-name">Bitnesia Store</span>
+				<span class="store-name">Bitmee Store</span>
 				<span class="status online">Online</span>
 			</div>
 		</div>
@@ -16,7 +16,7 @@
 			<div class="col-md-8">
 				<div class="row">
 					<div class="col-md-6">
-						<div class="card bitnesia db-card-small-A01 store-card-small">
+						<div class="card bitmee db-card-small-A01 store-card-small">
 							<table class="db-table-small-icon">
 								<tr>
 									<td rowspan="2" class="table-icon"><i class="ion-android-star-outline i-yellow"></i></td>
@@ -36,7 +36,7 @@
 						</div>
 					</div>
 					<div class="col-md-6">
-						<div class="card bitnesia db-card-small-A01 store-card-small">
+						<div class="card bitmee db-card-small-A01 store-card-small">
 							<table class="db-table-small-icon">
 								<tr>
 									<td rowspan="2" class="table-icon"><i class="ion-stats-bars"></i></td>
@@ -51,7 +51,7 @@
 				</div>
 				<div class="row store-margin-default-top">
 					<div class="col-md-12">
-						<div class="card bitnesia">
+						<div class="card bitmee">
 							<div class="store-comment-header">
 								<span>Komentar</span>
 							</div>
@@ -88,15 +88,15 @@
 			<div class="col-md-4">
 				<div class="row">
 					<div class="col-md-12">
-						<div class="card bitnesia db-card-small-A01 store-profile">
+						<div class="card bitmee db-card-small-A01 store-profile">
 							<div class="store-icon">
 								<img src="http://via.placeholder.com/140x140" alt="" class="rounded mx-auto d-block store-profile-icon">
 							</div>
 							<div class="store-profile-title">
-								Bitnesia Store
+								Bitmee Store
 							</div>
 							<div class="store-profile-tag">
-								@bitnesia
+								@bitmee
 							</div>
 							<div class="separator">
 								<hr>
@@ -105,7 +105,7 @@
 								<div class="box-line">
 									<div class="icon"><i class="ion-ios-analytics"></i></div>
 									<div class="text">
-										Bitnesia Platinum
+										Bitmee Platinum
 									</div>
 								</div>
 								<div class="box-line">

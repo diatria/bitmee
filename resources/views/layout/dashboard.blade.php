@@ -1,7 +1,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="{{url('css/bitnesia-dashboard.css')}}">
+	<link rel="stylesheet" href="{{url('css/bitmee-dashboard.css')}}">
 	<link rel="stylesheet" href="{{url('css/bootstrap.min.css')}}">
 	<link rel="stylesheet" href="{{url('css/ionicons.min.css')}}">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,6 +13,7 @@
 			<div class="logo">
 				<img src="{{asset('assets/image/bitcoin.png')}}" alt="">
 			</div>
+			<div class="brand">BITMEE</div>
 			<div class="menu">
 				<div class="item icon"><i class="ion-android-notifications-none"></i></div>
 				<div class="item icon"><i class="ion-radio-waves"></i></div>
@@ -40,24 +41,19 @@
 			<span class="profile-id">@dim.as</span>
 		</div>
 		<div class="list">
-			<div class="item-block">
+			<a href="{{url('store')}}" class="item-block">
 				<div class="item">
-					<i class="icon-bitnesia ion-stats-bars"></i><span>Market</span>
+					<i class="icon-bitmee ion-social-bitcoin-outline text-yellow"></i><span>VIP Voucher</span>
 				</div>
-			</div>
-			<div class="item-block">
+			</a>
+			<a href="{{url('store/ppob')}}" class="item-block">
 				<div class="item">
-					<i class="icon-bitnesia ion-card"></i><span>Wallet</span>
+					<i class="icon-bitmee ion-ios-list-outline text-green"></i><span>Pembayaran</span>
 				</div>
-			</div>
-			<div class="item-block">
+			</a>
+			<a href="{{url('store/history/transaksi')}}" class="item-block">
 				<div class="item">
-					<i class="icon-bitnesia ion-cash"></i><span>Investasi</span>
-				</div>
-			</div>
-			<a href="{{url('store/user')}}" class="item-block">
-				<div class="item">
-					<i class="icon-bitnesia ion-cash"></i><span>Toko</span>
+					<i class="icon-bitmee ion-ios-clock-outline text-yellow"></i><span>History Transaksi</span>
 				</div>
 			</a>
 		</div>

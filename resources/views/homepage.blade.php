@@ -1,8 +1,8 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Bitnesia</title>
-	<link rel="stylesheet" href="{{url('css/bitnesia.css')}}">
+	<title>BitMee</title>
+	<link rel="stylesheet" href="{{url('css/bitmee.css')}}">
 	<link rel="stylesheet" href="{{url('css/bootstrap.min.css')}}">
 </head>
 <body>
@@ -11,6 +11,7 @@
 			<div class="logo">
 				<img src="{{asset('assets/image/bitcoin.png')}}" alt="">
 			</div>
+			<div class="brand">BITMEE</div>
 			<div class="menu">
 				<div class="item">Dompet</div>
 				<div class="item">Market</div>
@@ -26,7 +27,7 @@
 					<h2>Jual Beli Asset Dengan Mudah dan Aman</h2>
 				</div>
 				<div class="description">
-					Bitnesia.id merupakan tempat investasi bitocoin, jual maupun beli dengan menyediakan berbabagai macam metode pembayaran.
+					BitMee.id merupakan tempat investasi bitocoin, jual maupun beli dengan menyediakan berbabagai macam metode pembayaran.
 				</div>
 				<button class="btn-nesia">Mulai Membeli</button>
 			</div>

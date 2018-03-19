@@ -1,4 +1,5 @@
 (function(){
+	// Slider Bank
 	if ($('#scroll-left').data('scroll') == $('#scroll-right').data('scroll')) {
 		$('#scroll-left').hide();
 		var scroll = $('.store-list-bank').scrollLeft();
@@ -31,4 +32,8 @@
 		$('#scroll-right').hide();
 	}
 
+	// Payment Bank
+	$('.payment-code').click(function(){
+		$('.input-bank').val($(this).data('bank'));
+	});
 })();
